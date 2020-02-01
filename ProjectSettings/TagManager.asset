@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - bg
+  - player
+  - back
+  - nadine
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: back
+    uniqueID: 540577777
+    locked: 0
+  - name: nadine
+    uniqueID: 2042105149
+    locked: 1
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Main Camera
+    uniqueID: 2542237155
+    locked: 0
