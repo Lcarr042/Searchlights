@@ -10,7 +10,6 @@ public class SpriteMovement : MonoBehaviour
     //public float maxSpeed;
     private Rigidbody2D rb2d;
     
-    
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +18,7 @@ public class SpriteMovement : MonoBehaviour
         rb2d = GetComponent<Rigidbody2D>();
         //position = gameObject.transform.position;
         speed = 10.0f;
-        //maxSpeed = 50.0f;
+        //maxSpeed = 50.0f;d
     }
 
     // Update is called once per frame
@@ -30,6 +29,9 @@ public class SpriteMovement : MonoBehaviour
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         rb2d.velocity = movement*speed;
 
+      
     }
+
 }
+
     
