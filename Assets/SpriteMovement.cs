@@ -9,6 +9,7 @@ public class SpriteMovement : MonoBehaviour
     public float speed;
     //public float maxSpeed;
     private Rigidbody2D rb2d;
+    public Animator anim;
     
 
     // Start is called before the first frame update
@@ -29,7 +30,8 @@ public class SpriteMovement : MonoBehaviour
         Vector2 movement = new Vector2(moveHorizontal, moveVertical);
         rb2d.velocity = movement*speed;
 
-      
+        anim.SetFloat("x", moveHorizontal);
+        anim.SetFloat("y", moveVertical);
     }
 
 }

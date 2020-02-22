@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5.05
+  anim: {fileID: 422443719}
 --- !u!212 &422443716
 SpriteRenderer:
   m_ObjectHideFlags: 0
