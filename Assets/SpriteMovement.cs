@@ -18,7 +18,7 @@ public class SpriteMovement : MonoBehaviour
         
         rb2d = GetComponent<Rigidbody2D>();
         //position = gameObject.transform.position;
-        speed = 10.0f;
+        speed = 6.0f;
         //maxSpeed = 50.0f;d
     }
 

@@ -15,9 +15,9 @@ TagManager:
   - 
   - bg
   - player
-  - back
-  - nadine
   - 
+  - nadine
+  - behind sprite
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Main Camera
     uniqueID: 2542237155
+    locked: 0
+  - name: behind sprite
+    uniqueID: 3415120775
     locked: 0
